@@ -19,7 +19,6 @@ function buscarCancion(e){
     // Consultar a nuestra Api
     const busqueda = new API(artista , cancion);
     busqueda.consultarAPI();
-    UI.headingResultado.textContent = `${cancion}, ${artista}`
 
 }
 
